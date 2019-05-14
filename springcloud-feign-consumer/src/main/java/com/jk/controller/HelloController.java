@@ -29,6 +29,7 @@ public class HelloController {
         User user = new User();
         user.setUserid(1);
         user.setUserName("李四1");
+        System.out.println(11111);
         user.setSex(12);
         user.setAge(1);
         return schedualServiceHi.hellouser( user );
